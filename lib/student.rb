@@ -75,6 +75,10 @@ end
          DB[:conn].execute(sql).collect do |row|
           self.new_from_db(row)
        end
+<<<<<<< HEAD
+=======
+       #binding.pry
+>>>>>>> b0404593655bc9a77ce4dd7ad174ec8950f9803d
   end
   
   def self.first_X_students_in_grade_10(x) 
